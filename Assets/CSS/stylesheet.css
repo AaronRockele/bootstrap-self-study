@@ -1,30 +1,43 @@
 body {
-  font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .container-fluid {
-  padding: 0;
-  height: 100vh;
+    padding: 0;
+    height: 100vh;
 }
+
 .container-fluid .logo-color {
-  color: #005f94;
+    color: #005f94;
 }
+
+.container-fluid .bg-opacity {
+    opacity: 0.8;
+}
+
+.container-fluid .t-opacity {
+    opacity: 1;
+}
+
 .container-fluid .carousel-caption {
-  position: absolute;
-  top: 40%;
+    position: absolute;
+    top: 40%;
 }
+
 .container-fluid .carousel-caption h1 {
-  font-size: 4.5em;
+    font-size: 4.5em;
 }
+
 .container-fluid .carousel-caption p {
-  font-size: 1.5em;
+    font-size: 1.5em;
 }
+
 .container-fluid .navbar .nav-link:hover {
-  color: #005f94;
+    color: #005f94;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

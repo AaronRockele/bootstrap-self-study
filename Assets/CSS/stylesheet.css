@@ -1,9 +1,27 @@
 body {
-  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
 }
 
 .container-fluid {
-  height: 200vh;
+  padding: 0;
+  height: 100vh;
+}
+.container-fluid .logo-color {
+  color: #005f94;
+}
+.container-fluid .carousel-caption {
+  position: absolute;
+  top: 40%;
+}
+.container-fluid .carousel-caption h1 {
+  font-size: 4.5em;
+}
+.container-fluid .carousel-caption p {
+  font-size: 1.5em;
 }
 .container-fluid .navbar .nav-link:hover {
   color: #005f94;

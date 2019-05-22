@@ -1,13 +1,42 @@
+@import 'color';
+
+
 body {
-    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container-fluid {
-    height: 200vh;
+    padding: 0;
+    height: 100vh;
+
+    .logo-color {
+        color: $color1;
+    }
+
+    .carousel-caption {
+        position: absolute;
+        top: 40%;
+
+        h1 {
+            font-size: 4.5em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    }
+
+
 
     .navbar {
         .nav-link:hover {
-            color: #005f94;
+            color: $color1;
         }
+
+
     }
 }

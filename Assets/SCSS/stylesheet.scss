@@ -86,7 +86,19 @@ h1 {
     }
 }
 
-footer {
-    background-color: $color2;
-    color: $color3;
+.container3 {
+    height: 93vh;
+    width: 100vw;
+    background-image: url(../IMG/race_car.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .card {
+        position: relative;
+        top: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

@@ -61,9 +61,20 @@ h1 {
   background-color: rgba(186, 184, 184, 0.7);
 }
 
-footer {
-  background-color: #303030;
-  color: #e8e8e8;
+.container3 {
+  height: 93vh;
+  width: 100vw;
+  background-image: url(../IMG/race_car.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container3 .card {
+  position: relative;
+  top: 40%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

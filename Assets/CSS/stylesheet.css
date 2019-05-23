@@ -19,10 +19,6 @@ h1 {
 .container-fluid .font-weight-thin {
   font-weight: lighter;
 }
-.container-fluid .backgroundpic {
-  background-image: url(../IMG/banner-1.jpg);
-  background-repeat: no-repeat;
-}
 .container-fluid .carousel-caption {
   position: absolute;
   top: 40%;
@@ -55,7 +51,7 @@ h1 {
 }
 .container2 .row h8 {
   font-weight: bolder;
-  color: #005f94;
+  color: #e8e8e8;
 }
 .container2 .row p {
   font-size: 0.8em;

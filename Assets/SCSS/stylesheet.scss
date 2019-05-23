@@ -25,12 +25,6 @@ h1 {
         font-weight: lighter;
     }
 
-    .backgroundpic {
-        background-image: url(../IMG/banner-1.jpg);
-        background-repeat: no-repeat;
-
-    }
-
     .carousel-caption {
         position: absolute;
         top: 40%;
@@ -76,7 +70,7 @@ h1 {
 
         h8 {
             font-weight: bolder;
-            color: $color1;
+            color: $color3;
         }
 
         p {

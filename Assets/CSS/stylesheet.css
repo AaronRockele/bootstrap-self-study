@@ -1,43 +1,66 @@
 body {
-    font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .container-fluid {
-    padding: 0;
-    height: 100vh;
+  padding: 0;
+  height: 100vh;
 }
-
+.container-fluid .card {
+  background-color: rgba(247, 247, 247, 0.8);
+}
 .container-fluid .logo-color {
-    color: #005f94;
+  color: #005f94;
 }
-
-.container-fluid .bg-opacity {
-    opacity: 0.8;
-}
-
-.container-fluid .t-opacity {
-    opacity: 1;
-}
-
 .container-fluid .carousel-caption {
-    position: absolute;
-    top: 40%;
+  position: absolute;
+  top: 40%;
 }
-
 .container-fluid .carousel-caption h1 {
-    font-size: 4.5em;
+  font-size: 4.5em;
 }
-
 .container-fluid .carousel-caption p {
-    font-size: 1.5em;
+  font-size: 1.5em;
+}
+.container-fluid .navbar .nav-link:hover {
+  color: #005f94;
 }
 
-.container-fluid .navbar .nav-link:hover {
-    color: #005f94;
+.container2 {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../IMG/banner-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #303030;
+}
+.container2 .row a {
+  text-decoration: none;
+}
+.container2 .row h3 {
+  color: #e8e8e8;
+}
+.container2 .row h8 {
+  font-weight: bolder;
+  color: #005f94;
+}
+.container2 .row p {
+  font-size: 0.8em;
+  color: white;
+}
+.container2 .row .col-lg-3:hover {
+  background-color: rgba(186, 184, 184, 0.7);
+}
+
+footer {
+  background-color: #303030;
+  color: #e8e8e8;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

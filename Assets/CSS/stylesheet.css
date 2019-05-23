@@ -16,6 +16,13 @@ h1 {
 .container-fluid .logo-color {
   color: #005f94;
 }
+.container-fluid .font-weight-thin {
+  font-weight: lighter;
+}
+.container-fluid .backgroundpic {
+  background-image: url(../IMG/banner-1.jpg);
+  background-repeat: no-repeat;
+}
 .container-fluid .carousel-caption {
   position: absolute;
   top: 40%;

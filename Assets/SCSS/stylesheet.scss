@@ -21,7 +21,15 @@ h1 {
         color: $color1;
     }
 
+    .font-weight-thin {
+        font-weight: lighter;
+    }
 
+    .backgroundpic {
+        background-image: url(../IMG/banner-1.jpg);
+        background-repeat: no-repeat;
+
+    }
 
     .carousel-caption {
         position: absolute;

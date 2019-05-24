@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 h1 {
@@ -12,6 +13,9 @@ h1 {
 }
 .container-fluid .card {
   background-color: rgba(247, 247, 247, 0.8);
+}
+.container-fluid .navbar {
+  width: 100vw;
 }
 .container-fluid .logo-color {
   color: #005f94;
@@ -62,7 +66,7 @@ h1 {
 }
 
 .container3 {
-  height: 93vh;
+  height: 100vh;
   width: 100vw;
   background-image: url(../IMG/race_car.jpg);
   background-attachment: fixed;
@@ -75,6 +79,28 @@ h1 {
   top: 40%;
   margin-left: auto;
   margin-right: auto;
+}
+
+footer {
+  height: 50vh;
+  background-color: #303030;
+  color: #e8e8e8;
+}
+footer a {
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+}
+footer .copyright-bar {
+  height: 5vh;
+  padding-top: 5px;
+  background-color: #444444;
+  text-align: center;
+}
+
+h5 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

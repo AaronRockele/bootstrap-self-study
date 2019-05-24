@@ -1,6 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", sans-serif;
-  margin: 0;
 }
 
 h1 {
@@ -8,14 +11,14 @@ h1 {
 }
 
 .container-fluid {
-  padding: 0;
   height: 100vh;
+  padding: 0;
 }
 .container-fluid .card {
   background-color: rgba(247, 247, 247, 0.8);
 }
 .container-fluid .navbar {
-  width: 100vw;
+  width: 100%;
 }
 .container-fluid .logo-color {
   color: #005f94;
@@ -25,7 +28,7 @@ h1 {
 }
 .container-fluid .carousel-caption {
   position: absolute;
-  top: 40%;
+  top: 35%;
 }
 .container-fluid .carousel-caption h1 {
   font-size: 4.5em;
@@ -38,7 +41,8 @@ h1 {
 }
 
 .container2 {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   width: 100vw;
   background-image: url(../IMG/banner-1.jpg);
   background-attachment: fixed;
@@ -66,8 +70,9 @@ h1 {
 }
 
 .container3 {
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
   background-image: url(../IMG/race_car.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -76,19 +81,22 @@ h1 {
 }
 .container3 .card {
   position: relative;
-  top: 40%;
+  top: 35%;
   margin-left: auto;
   margin-right: auto;
 }
 
 footer {
-  height: 50vh;
+  height: auto;
   background-color: #303030;
   color: #e8e8e8;
 }
 footer a {
+  font-size: 0.9em;
+  color: #e8e8e8;
+}
+footer a:hover {
   text-decoration: none;
-  font-size: 1em;
   color: white;
 }
 footer .copyright-bar {
@@ -101,6 +109,19 @@ footer .copyright-bar {
 h5 {
   padding-bottom: 5px;
   border-bottom: 1px solid white;
+}
+
+.social-media .twitter:hover {
+  color: #38A1F3;
+}
+.social-media .facebook:hover {
+  color: #3b5998;
+}
+.social-media .linkedin:hover {
+  color: #0077B5;
+}
+.social-media .xing:hover {
+  color: #026466;
 }
 
 /*# sourceMappingURL=stylesheet.css.map */

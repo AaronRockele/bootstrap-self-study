@@ -1,9 +1,15 @@
+.test {
+  margin-right: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -11,7 +17,6 @@ h1 {
 }
 
 .container-fluid {
-  height: 100vh;
   padding: 0;
 }
 .container-fluid .card {
@@ -43,7 +48,7 @@ h1 {
 .container2 {
   min-height: 100vh;
   height: auto;
-  width: 100vw;
+  width: 100%;
   background-image: url(../IMG/banner-1.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -55,7 +60,7 @@ h1 {
   text-decoration: none;
 }
 .container2 .row h3 {
-  color: #e8e8e8;
+  color: white;
 }
 .container2 .row h8 {
   font-weight: bolder;
@@ -64,6 +69,9 @@ h1 {
 .container2 .row p {
   font-size: 0.8em;
   color: white;
+}
+.container2 .row .col {
+  margin-right: 0;
 }
 .container2 .row .col-lg-3:hover {
   background-color: rgba(186, 184, 184, 0.7);
@@ -90,6 +98,10 @@ footer {
   height: auto;
   background-color: #303030;
   color: #e8e8e8;
+}
+footer .col,
+footer .row {
+  margin-right: 0;
 }
 footer a {
   font-size: 0.9em;
